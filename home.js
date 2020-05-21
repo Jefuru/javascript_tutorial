@@ -82,43 +82,88 @@
 // console.log(fruit.split(''));
 
 
-// Array
-let fruits = ['banana', 'apple', 'pineapple']
-fruits = new Array('banana', 'apple', 'pineapple')
+// // Array
+// let fruits = ['banana', 'apple', 'pineapple']
+// fruits = new Array('banana', 'apple', 'pineapple')
 
-console.log(fruits[1]);
+// console.log(fruits[1]);
 
-fruits[0] = 'Guava'
+// fruits[0] = 'Guava'
 
-console.log(fruits[0]);
+// console.log(fruits[0]);
 
-for(let i = 0; i < fruits.length; i++) {
-    console.log(fruits[i]);
-}
+// for(let i = 0; i < fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
 
-console.log('to string', fruits.toString());
-console.log(fruits.join('-'));
-console.log(fruits, fruits.pop(), fruits); // remove last item
-console.log(fruits, fruits.push('raspberry'), fruits);
-console.log(fruits[4]);
-fruits[4] = 'new fruit';
-console.log(fruits)
-fruits.shift(); // remove first item
-fruits.unshift('kiwi'); // add first item to array
-console.log(fruits);
+// console.log('to string', fruits.toString());
+// console.log(fruits.join('-'));
+// console.log(fruits, fruits.pop(), fruits); // remove last item
+// console.log(fruits, fruits.push('raspberry'), fruits);
+// console.log(fruits[4]);
+// fruits[4] = 'new fruit';
+// console.log(fruits)
+// fruits.shift(); // remove first item
+// fruits.unshift('kiwi'); // add first item to array
+// console.log(fruits);
 
-let vegetables = ['tomato', 'broccoli'];
-let allGroceries = fruits.concat(vegetables);
-console.log(allGroceries);
-console.log(allGroceries.slice(1,4));
-console.log(allGroceries.reverse());
+// let vegetables = ['tomato', 'broccoli'];
+// let allGroceries = fruits.concat(vegetables);
+// console.log(allGroceries);
+// console.log(allGroceries.slice(1,4));
+// console.log(allGroceries.reverse());
 
-let numbers = [1,4,6,2,31,,5,4,2,432,5];
-console.log(numbers.sort(function(a, b){return a-b})); // sorted in ascending order
-console.log(numbers.sort()); // sorted in alphabetical order
+// let numbers = [1,4,6,2,31,,5,4,2,432,5];
+// console.log(numbers.sort(function(a, b){return a-b})); // sorted in ascending order
+// console.log(numbers.sort()); // sorted in alphabetical order
 
-let emptyArray = new Array();
-for(let num = 0; num < 10; num++){
-    emptyArray.push(num);
-}
-console.log(emptyArray);
+// let emptyArray = new Array();
+// for(let num = 0; num < 10; num++){
+//     emptyArray.push(num);
+// }
+// console.log(emptyArray);
+
+// object oriented programming
+// let student = {
+//     first: 'Jeff', 
+//     last:'Liu', 
+//     age: 27, 
+//     height: 175,
+//     studentInfo: function(){
+//         return this.first + '\t' + this.last + '\t' + this.age;
+//     }
+// };
+// console.log(student.first);
+// console.log(student.last);
+// student.first = 'Jennifer';
+// console.log(student.first);
+// student.age++;
+// console.log(student.age);
+// console.log(student.studentInfo());
+
+// // control flow 
+// // if else && AND || OR
+// let age = prompt('what is your age?')
+// if ((age >= 18) && (age <= 35)){
+//     status = 'target demo';
+// } else{
+//     status = 'not my audience';
+// }
+// console.log(status);
+
+// // switch
+// let day = prompt('what day is today?')
+// switch(parseInt(day)){
+//     case 0:
+//         text = 'weekend';
+//         break;
+//     case 5:
+//         text = 'weekend';
+//         break;
+//     case 6:
+//         text = 'weekend';
+//         break;
+//     default:
+//         text = 'weekday';
+// }
+// console.log(text);
