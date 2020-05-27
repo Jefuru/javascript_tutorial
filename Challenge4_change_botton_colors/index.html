@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="static/css/style.css">
+    <title>Javascript Steroid</title>
+</head>
+<body>
+    <div class="container-4">
+        <h2 id="change-my-color">Challenge 4: Change the Color of All Button</h2>
+        <div class="flex-box-pick-color">
+            <form action="">
+                <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                    <option value="random">Random</option>
+                    <option value="red">Red</option>
+                    <option value="green">Green</option>
+                    <option value="reset">Reset</option>
+                </select>
+            </form>
+
+            <button class="btn btn-primary">Facebook</button>
+            <button class="btn btn-danger">Youtube</button>
+            <button class="btn btn-warning">Ocard</button>
+            <button class="btn btn-success">Wechat</button>
+        </div>
+    </div>
+
+    <script src="static/js/script.js"></script>
+</body>
+</html>
