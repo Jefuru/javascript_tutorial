@@ -15,7 +15,7 @@
 }
 
 .flex-blackjack-row-1, .flex-blackjack-row-2 {
-    background: url("/home/jefuru/javascript_tutorial/Challenge5_blackjack/static/images/blackjack_table.jpg") center;
+    background: url("../images/blackjack_table.jpg") center;
     color: white;
 }
 
